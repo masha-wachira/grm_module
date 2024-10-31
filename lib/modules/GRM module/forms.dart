@@ -153,7 +153,7 @@ class _GRMFormState extends State<GRMForm> {
     List<Map<String, dynamic>> maps = await db.query(
       tableName,
       where: 'name = ?',
-      whereArgs: [valueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelectedvalueSelected],
+      whereArgs: [valueSelected],
     );
 
     if (maps.isNotEmpty) {
